@@ -15,8 +15,9 @@ import Experience from './components/timeLine/experience';
 
 
 import work from './components/cv-info/work';
+import education from './components/cv-info/education';
 
-let fields = [{field:'Experience',content:work}];
+let fields = [{field:'Experience',content:work},{field:'Education',content:education}];
 
 const colors = {
   color01:'#3d5a80',
@@ -46,20 +47,40 @@ function Content({ children }){
 
 function App() {
   return (
-    <Canvas colors={colors}>
-      <Title name='Mariano L. Acosta' title='Electronics Engineer & Programmer'colors={colors}/>
-      <Content>
-        <Timeline>
-          <ShortBio colors={colors}/>
-          <Experience colors={colors} fields={fields}/>
-        </Timeline>
-        <Sidebar colors={colors}>
-          <ProfilePic />
-          <Contact colors={colors}/>
-          <Skills colors={colors}/>
-        </Sidebar>
-      </Content>
-    </Canvas>
+    <>
+    {/*First Page*/}
+      <Canvas colors={colors}>
+        <Title name='Mariano L. Acosta' title='Electronics Engineer & Programmer'colors={colors}/>
+        <Content>
+          <Timeline>
+            <ShortBio colors={colors}/>
+            <Experience colors={colors} fields={fields}/>
+          </Timeline>
+          <Sidebar colors={colors}>
+            <ProfilePic />
+            <Contact colors={colors}/>
+            <Skills colors={colors}/>
+          </Sidebar>
+        </Content>
+      </Canvas>
+
+    {/*Second Page*/}
+    {/*
+      <Canvas colors={colors}>
+        <Content>
+          <Timeline>
+            <ShortBio colors={colors}/>
+            <Experience colors={colors} fields={fields}/>
+          </Timeline>
+          <Sidebar colors={colors}>
+            <ProfilePic />
+            <Contact colors={colors}/>
+            <Skills colors={colors}/>
+          </Sidebar>
+        </Content>
+      </Canvas>
+     */}
+    </>
   );
 }
 
