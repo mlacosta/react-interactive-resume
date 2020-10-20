@@ -14,30 +14,51 @@ import ShortBio from './components/timeLine/shortBio';
 import Experience from './components/timeLine/experience';
 
 
+import work from './components/cv-info/work';
+
+let fields = [{field:'Experience',content:work}];
+
 const colors = {
   color01:'#3d5a80',
   color02:'#98c1d9',
   color03:'#e0fbfc',
   color04:'#ee6c4d',
   color05:'#293241',
+  color06:'#e5e5e5'
 }
 
+
+function Content({ children }){
+
+  const style = {
+    display:'flex',
+    height:'100%'
+  }
+
+  return(
+    <div className="content" style={style}>
+      {children}
+    </div>
+  )
+
+}
 
 
 function App() {
   return (
-    <Canvas>
-      <Title name='Mariano L. Acosta' title='Electronics Engineer & Programmer'
-             colors={colors}/>
-      <Sidebar>
-            <ProfilePic/>
-            <Contact/>
-            <Skills/>
-      </Sidebar>
-      <Timeline>
-        <ShortBio/>
-        <Experience/>
-      </Timeline>
+    <Canvas colors={colors}>
+      <Title name='Mariano L. Acosta' title='Electronics Engineer & Programmer'colors={colors}/>
+      <Content>
+        <Timeline>
+          <ShortBio colors={colors}/>
+          <Experience colors={colors} fields={fields}/>
+        </Timeline>
+        <Sidebar colors={colors}>
+          <ProfilePic />
+          <Contact colors={colors}/>
+          <Skills colors={colors}/>
+        </Sidebar>
+      </Content>
     </Canvas>
   );
 }
