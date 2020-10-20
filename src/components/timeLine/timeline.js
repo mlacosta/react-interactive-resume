@@ -8,7 +8,7 @@ export default function Timeline({ children }){
         lineHeight:1.4,
         width:'68%',
         height:'100%',
-        fontSize:'.9rem'
+        fontSize:'.85rem'
     }
     return(
         <div class='timeline' style={timeStyle}>
