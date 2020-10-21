@@ -7,8 +7,8 @@ export default function SideBar( { children , colors, sideInfo} ){
         backgroundColor: colors.color06,
         height:'92.5%',
         padding: '0px 40px',
-        fontSize:'.9rem'
-
+        fontSize:'.9rem',
+        textAlign:'justify'
     };
     
     return(

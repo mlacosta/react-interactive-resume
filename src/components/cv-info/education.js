@@ -4,7 +4,8 @@ export const education = [
     {name: 'University of Mar del Plata (UNMDP) | Final GPA 7.8/10',
     title: 'Degree in Electronics Engineering',
     description:'2012 - 2018',
-    content: ['Additional courses: Computational Intelligence, Applied Robotics, Operations Research, FPGA Design, Microcontrollers.'],
+    content: ['Coursework: Control Systems, Electronics Instrumentation, Signal Processing, Circuit Design, Communications & Data Networks',
+            'Additional courses: Computational Intelligence, Applied Robotics, Operations Research, FPGA Design, Microcontrollers.'],
     showTitle:true
     },
     {name: 'Virginia Tech - United States',

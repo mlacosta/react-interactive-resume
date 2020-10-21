@@ -19,8 +19,8 @@ import {education,papers} from './components/cv-info/education';
 
 import {info,skills,awards,courses} from './components/cv-info/info';
 
-let fields = [{field:'Experience',content:work},
-              {field:'Published Papers',content:papers},{field:'Education',content:education}];
+let fields = [{field:'Education',content:education},{field:'Experience',content:work},
+              {field:'Published Papers',content:papers}];
 let sideInfo = [{field:'Personal Info',content:info},
                 {field:'Skills',content:skills},
                 {field:'Honors & Awards',content:awards},
@@ -37,7 +37,6 @@ const colors = {
 
 
 function Content({ children }){
-
   const style = {
     display:'flex',
     height:'100%'
@@ -50,7 +49,6 @@ function Content({ children }){
   )
 
 }
-
 
 function App() {
   return (

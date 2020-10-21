@@ -2,10 +2,10 @@ import React from 'react';
 
 const work = [
     {name: <a href='https://www.coderhouse.com/' style={{textDecoration:'none'}} target='_blank'>Coderhouse</a>,
-    title: 'React JS Teacher',
+    title: 'React JS Tutor',
     description:'2020 - Present',
-    content: ['Taught and assisted students with HTML, CSS, Javascript, React JS, Node, CLI, NPM, Firebase, GIT version control and project management.',
-              'Taught how to build an e-commerce app from scratch.', 'Graded assignments'
+    content: ['Taught and assisted students with HTML, CSS, Javascript, APIs, React.js, Node.js, CLI, NPM, Firebase, GIT version control and project management.',
+              'Taught how to build an e-commerce app from scratch.', 'Graded assignments.'
 
             ,
             ],
