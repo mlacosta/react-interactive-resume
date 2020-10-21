@@ -1,4 +1,5 @@
 import React from 'react';
+import './experience.css';
 
 export default function Experience({ colors, fields}){
 
@@ -24,7 +25,7 @@ export default function Experience({ colors, fields}){
                 }
 
                 const nameStyle ={
-                    marginBottom:10
+                    margin:'10px 0'
                 }
 
                 return(
@@ -41,6 +42,10 @@ export default function Experience({ colors, fields}){
                                 marginTop:10
                             }
 
+                            const liStyle  = {
+                                listStyle: 'none'
+                            }
+
                             return(
                                 <div className="exp-container" style={container}>
                                     <div className="date" style={dateStyle}>{exp.description}</div>
@@ -49,7 +54,7 @@ export default function Experience({ colors, fields}){
                                         <i>{exp.name}</i>
                                         <ul style={ulStyle}>
                                             {items.map((item)=>{
-                                                return <li key={inx++}>{item}</li>
+                                                return <li class='exp-item' key={inx++} style={liStyle}>{item}</li>
                                             })}
                                         </ul>
                                     </div>

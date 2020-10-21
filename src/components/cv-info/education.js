@@ -7,7 +7,7 @@ const education = [
     {name: 'Virginia Tech - United States',
     title: 'Fulbright Scholarship - Exchange Student',
     description:'2017 - 2017',
-    content: ['Javascript (ES6)','React.js','Node.js','Express.js']
+    content: ['Javascript (ES6)','React.js','Node.js']
     }
 ]
 

@@ -18,6 +18,7 @@ import work from './components/cv-info/work';
 import education from './components/cv-info/education';
 
 let fields = [{field:'Experience',content:work},{field:'Education',content:education}];
+let sideInfo = [];
 
 const colors = {
   color01:'#3d5a80',

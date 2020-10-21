@@ -1,0 +1,4 @@
+.exp-item:before{
+    content:"• "; 
+    font-size:1rem;
+}
