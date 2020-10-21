@@ -7,7 +7,7 @@ export default function Title( { name , title, colors } ){
     const titleStyle = {
         height:'7%',
         backgroundColor: colors.color01,
-        padding:'40px 0 0 100px',
+        padding:'20px 0 0 100px',
         color:'white'
     }
     

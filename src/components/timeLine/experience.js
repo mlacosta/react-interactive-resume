@@ -21,7 +21,7 @@ export default function Experience({ colors, fields}){
                 const container = {
                     display:'grid',
                     gridTemplateColumns: '1fr 5fr',
-                    columnGap:'60px'
+                    columnGap:'30px'
                 }
 
                 const nameStyle ={
@@ -46,12 +46,13 @@ export default function Experience({ colors, fields}){
                                 listStyle: 'none'
                             }
 
+                            let title = exp.showTitle ? <><h3 style={{margin:'0px 0px 10px'}}>{exp.title}</h3><i>{exp.name}</i></>:<></>
+
                             return(
                                 <div className="exp-container" style={container}>
                                     <div className="date" style={dateStyle}>{exp.description}</div>
                                     <div className="desc-container">
-                                        <h3 style={{margin:'0px 0px 10px'}}>{exp.title}</h3>
-                                        <i>{exp.name}</i>
+                                        {title}
                                         <ul style={ulStyle}>
                                             {items.map((item)=>{
                                                 return <li class='exp-item' key={inx++} style={liStyle}>{item}</li>

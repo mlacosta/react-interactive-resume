@@ -15,10 +15,16 @@ import Experience from './components/timeLine/experience';
 
 
 import work from './components/cv-info/work';
-import education from './components/cv-info/education';
+import {education,papers} from './components/cv-info/education';
 
-let fields = [{field:'Experience',content:work},{field:'Education',content:education}];
-let sideInfo = [];
+import {info,skills,awards,courses} from './components/cv-info/info';
+
+let fields = [{field:'Experience',content:work},{field:'Education',content:education},
+              {field:'Published Papers',content:papers}];
+let sideInfo = [{field:'Personal Info',content:info},
+                {field:'Skills',content:skills},
+                {field:'Honors & Awards',content:awards},
+                {field:'Online Courses',content:courses}];
 
 const colors = {
   color01:'#3d5a80',
@@ -57,10 +63,8 @@ function App() {
             <ShortBio colors={colors}/>
             <Experience colors={colors} fields={fields}/>
           </Timeline>
-          <Sidebar colors={colors}>
+          <Sidebar colors={colors} sideInfo={sideInfo}>
             <ProfilePic />
-            <Contact colors={colors}/>
-            <Skills colors={colors}/>
           </Sidebar>
         </Content>
       </Canvas>
