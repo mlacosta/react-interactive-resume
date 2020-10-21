@@ -1,14 +1,16 @@
+import { courses } from "./info";
+
 export const education = [
-    {name: 'University of Mar del Plata (UNMDP)',
-    title: 'MSc + BS, Electronics Engineering',
+    {name: 'University of Mar del Plata (UNMDP) | Final GPA 7.8/10',
+    title: 'Degree in Electronics Engineering',
     description:'2012 - 2018',
-    content: ['Javascript (ES6)','React.js','Node.js'],
+    content: ['Additional courses: Computational Intelligence, Applied Robotics, Operations Research, FPGA Design, Microcontrollers.'],
     showTitle:true
     },
     {name: 'Virginia Tech - United States',
     title: 'Fulbright Scholarship - Exchange Student',
     description:'2017 - 2017',
-    content: ['Javascript (ES6)','React.js','Node.js'],
+    content: ['Intensive, 200hs English course at VTLCI ','Attended to university courses in Electrical and Computer Engineering'],
     showTitle:true
     }
 ]
@@ -17,11 +19,11 @@ export const papers = [
     {name: 'University of Mar del Plata (UNMDP)',
     title: 'MSc + BS, Electronics Engineering',
     description:'2016 - 2019',
-    content: ['Hybrid sorting algorithm implemented with High Level Synthesis',
-    'Compressed Sensing System for 16x sub-Nyquist Signal Reconstruction',
-    'Signal Acquisition and Reconstruction System with Xampling',
-    'Neural Network for Robotic Arm Control in Fixed Point',
-    'FM Audio Synthetizer with Genetic Algorithms'],
+    content: ['Hybrid sorting algorithm implemented with HLS (ISSN: 1548-0992)',
+    'Compressed Sensing System for 16x sub-Nyquist DSP (ISBN: 978-1-7281-1404-0)',
+    'Signal Processing System with Xampling (ISBN: 978-1-5090-6286-7)',
+    'Neural Network for Robotic Arm Control in Fixed Point (ISBN: 978-987-45523-8-9)',
+    'FM Audio Synthetizer with Genetic Algorithms (ISSN: 1850-2776)'],
     showTitle:false
     } 
 ]

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './SideBar.css'
 
 export default function SideBar( { children , colors, sideInfo} ){
     const barStyle = {
@@ -35,11 +35,13 @@ export default function SideBar( { children , colors, sideInfo} ){
                                 const fieldStyle = {
                                     color: colors.color05
                                 }
+
+                                let items = item.hideItems ? <></> : <><br/><span>{item.content}</span></>
+
                                 return(
                                     <div class='item' style={itemStyle}>
                                         <strong style={fieldStyle}>{item.field}</strong>
-                                        <br/>
-                                        <span>{item.content}</span> 
+                                        {items}
                                         <br/>
                                     </div>
                                 )

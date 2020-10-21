@@ -4,9 +4,9 @@ const work = [
     {name: <a href='https://www.coderhouse.com/' style={{textDecoration:'none'}} target='_blank'>Coderhouse</a>,
     title: 'React JS Teacher',
     description:'2020 - Present',
-    content: ['Taught and Assisted students with web development concepts.',
-              'Help the students build an e-commerce app from scratch.',
-            'HTML, CSS, Javascript, React JS, Node, CLI, NPM, Firebase, GIT version control, project management.',
+    content: ['Taught and assisted students with HTML, CSS, Javascript, React JS, Node, CLI, NPM, Firebase, GIT version control and project management.',
+              'Taught how to build an e-commerce app from scratch.', 'Graded assignments'
+
             ,
             ],
     showTitle:true
@@ -22,6 +22,7 @@ const work = [
     },
     {name: <a href='https://icyte.conicet.gov.ar/' style={{textDecoration:'none'}} target='_blank'>ICyTE</a>,
     content: ['Developed a Compressed Sensing System in a Xilinx ZYNQ 7000 SoC.',
+              'Travelled to Trieste, Italy, for an intensive workshop in SoC design (ICTP)',
               'Coded in C/C++, VHDL and Xilinx HLS.',
               'Created a Graphic Interface in Python with Network Capabilities',
             'Designed and Built a Delta/Sigma Digital-to-Analog converter.'],
@@ -31,9 +32,9 @@ const work = [
     },
     {name: <a href='https://www.invap.com.ar/' style={{textDecoration:'none'}} target='_blank'>INVAP S.E</a>,  
     content: ['Developed a Printed Circuit Board for an aerospacial system',
-              'Used Microsemi FPGA Pro ASIC3 (CCGA)',
-              'Studied of the CCGA technology, footprint, and solder requirements',
-              'Design of circuit layout in Altium Designer',
+              'Used Microsemi FPGA Pro ASIC3 (CCGA).',
+              'Studied the CCGA technology, footprint, and solder requirements.',
+              'Design of circuit layout in Altium Designer.',
               ],
     showTitle:true,
     title: 'Avionics Engineer (Internship)',

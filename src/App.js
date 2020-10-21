@@ -19,8 +19,8 @@ import {education,papers} from './components/cv-info/education';
 
 import {info,skills,awards,courses} from './components/cv-info/info';
 
-let fields = [{field:'Experience',content:work},{field:'Education',content:education},
-              {field:'Published Papers',content:papers}];
+let fields = [{field:'Experience',content:work},
+              {field:'Published Papers',content:papers},{field:'Education',content:education}];
 let sideInfo = [{field:'Personal Info',content:info},
                 {field:'Skills',content:skills},
                 {field:'Honors & Awards',content:awards},
