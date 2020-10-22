@@ -8,7 +8,7 @@ export default function SideBar( { children , colors, sideInfo} ){
         height:'92.5%',
         padding: '0px 40px',
         fontSize:'.9rem',
-        textAlign:'justify'
+        textAlign:'left'
     };
     
     return(
@@ -30,7 +30,7 @@ export default function SideBar( { children , colors, sideInfo} ){
                         <div className="items">
                             {value.content.map((item)=>{
                                 const itemStyle = {
-                                    marginBottom:30
+                                    marginBottom:25
                                 }
                                 const fieldStyle = {
                                     color: colors.color05

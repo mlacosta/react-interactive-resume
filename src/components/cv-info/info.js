@@ -15,9 +15,12 @@ export const info = [
     },
     {field: 'Linkedin',
      content:<a href='http://linkedin/in/mlacosta' target='_blank' style={{textDecoration:'none'}}>linkedin/in/mlacosta</a>
-    },    
+    },  
     {field: 'Languages',
     content: 'Spanish (Native) | English (Proficient)'
+    }, 
+    {field: 'Birthdate',
+    content: '13 August 1993 (27 years old)'
     }
 ];
 

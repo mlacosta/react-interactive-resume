@@ -1,7 +1,8 @@
 import { courses } from "./info";
 
 export const education = [
-    {name: 'University of Mar del Plata (UNMDP) | Final GPA 7.8/10',
+    
+    {name: 'University of Mar del Plata (UNMDP)',
     title: 'Degree in Electronics Engineering',
     description:'2012 - 2018',
     content: ['Coursework: Control Systems, Electronics Instrumentation, Signal Processing, Circuit Design, Communications & Data Networks',

@@ -11,7 +11,7 @@ const canvaStyle = {
 export default function Canvas({children}){
 
     return(
-        <div className="Canvas" style={canvaStyle}>
+        <div className="Canvas" style={canvaStyle} >
             {children}
         </div>
 

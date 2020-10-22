@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import ReactToPdf from 'react-to-pdf';
+
 import './App.css';
 
 import Canvas from './components/canvas';
@@ -50,11 +52,10 @@ function Content({ children }){
 
 }
 
-function App() {
-  return (
+function Resume(){
+  return(
     <>
-    {/*First Page*/}
-      <Canvas colors={colors}>
+      <Canvas>
         <Title name='Mariano L. Acosta' title='Electronics Engineer & Programmer'colors={colors}/>
         <Content>
           <Timeline>
@@ -66,25 +67,12 @@ function App() {
           </Sidebar>
         </Content>
       </Canvas>
-
-    {/*Second Page*/}
-    {/*
-      <Canvas colors={colors}>
-        <Content>
-          <Timeline>
-            <ShortBio colors={colors}/>
-            <Experience colors={colors} fields={fields}/>
-          </Timeline>
-          <Sidebar colors={colors}>
-            <ProfilePic />
-            <Contact colors={colors}/>
-            <Skills colors={colors}/>
-          </Sidebar>
-        </Content>
-      </Canvas>
-     */}
     </>
-  );
+  )
+}
+
+function App() {
+  return <Resume/>
 }
 
 export default App;

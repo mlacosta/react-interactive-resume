@@ -5,11 +5,12 @@ export default function ShortBio(){
     return(
         <>
         <p style={{marginTop:0}}>
-            27 years old engineer from Argentina. irure irure ullamco irure. Irure cupidatat 
-            ipsum incididunt est sunt mollit fugiat dolore do. Excepteur deserunt id velit 
-            elit ut commodo sit occaecat minim non. Laboris esse mollit non amet nisi irure 
-            ad exercitation anim. Nulla consectetur ad commodo excepteur velit sunt est ut 
-            incididunt veniam excepteur culpa. 
+            Engineer with 8 years of programming experience. Worked in diverse industries, 
+            including Embedded Software design, Power Electronics,
+            Digital Electronics and Printed Circuit Board manufacturing. 
+            Published several papers in IEEE about Algorithms, Machine Learning and Signal Processing. 
+            Fulbright Alumni. Currently making a career change into Software Engineering through online
+            courses and personal projects.
         </p>
 
         </>

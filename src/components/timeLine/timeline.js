@@ -4,7 +4,7 @@ export default function Timeline({ children }){
 
     const timeStyle = {
         textAlign:'justify',
-        padding:50,
+        padding: '40px 50px 50px',
         lineHeight:1.4,
         width:'68%',
         height:'100%',
