@@ -1,10 +1,13 @@
 import React from 'react';
 
+let W=2480
+let H=3508
+
 const canvaStyle = {
-    width: 2480,
-    height: 3508,
-    border: '1px solid black',
-    margin:'100px auto'
+    width: W,
+    height: H,
+    margin:'0 auto',
+    zoom: 1
 }
 
 

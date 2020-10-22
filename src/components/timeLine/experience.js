@@ -25,7 +25,7 @@ export default function Experience({ colors, fields}){
                 }
 
                 const nameStyle ={
-                    margin:'10px 0'
+                    margin:'0'
                 }
 
                 return(

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const info = [
     {field: 'Phone',
-     content:'+(54) 9-223-5238782'
+     content:'+(xx) x-xxx-xxxxxxx' //'+(54) 9-223-5238782'
     },
     {field: 'E-mail',
      content:  <a href='mailto:marianoacosta.003@gmail.com' target='_blank' style={{textDecoration:'none'}}>marianoacosta.003@gmail.com</a>
@@ -14,7 +14,7 @@ export const info = [
      content:<a href='http://github.com/mlacosta' target='_blank' style={{textDecoration:'none'}}>github.com/mlacosta</a>
     },
     {field: 'Linkedin',
-     content:<a href='http://linkedin/in/mlacosta' target='_blank' style={{textDecoration:'none'}}>linkedin/in/mlacosta</a>
+     content:<a href='http://linkedin.com/in/mlacosta' target='_blank' style={{textDecoration:'none'}}>linkedin.com/in/mlacosta</a>
     },  
     {field: 'Languages',
     content: 'Spanish (Native) | English (Proficient)'

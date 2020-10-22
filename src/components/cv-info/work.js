@@ -5,9 +5,7 @@ const work = [
     title: 'React JS Tutor',
     description:'2020 - Present',
     content: ['Taught and assisted students with HTML, CSS, Javascript, APIs, React.js, Node.js, CLI, NPM, Firebase, GIT version control and project management.',
-              'Taught how to build an e-commerce app from scratch.', 'Graded assignments.'
-
-            ,
+              'Taught how to build an e-commerce app from scratch. Graded assignments.'
             ],
     showTitle:true
     },
